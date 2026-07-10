@@ -12,21 +12,21 @@
 
 系统采用RTC模块进行计时。设备上电后即可实时显示当前时间，即使系统复位，只要RTC持续供电，时间信息仍可保持连续运行，无需重新校时。
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/2.jpg" width="400" >
 
 ## 3. 步数统计功能
 
 利用MPU6050三轴加速度传感器采集人体运动数据，通过步态检测算法对加速度信号进行滤波、动态阈值判断及峰值检测，实现步数统计。统计结果实时更新，并显示在OLED屏幕上。
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/3.jpg" width="400" >
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/4.jpg" width="400" >
 
 ## 4. 蓝牙数据传输功能
 
 采用BT24蓝牙模块与手机建立无线通信连接，实时发送当前步数信息，实现运动数据的无线传输，为后续移动端数据显示提供基础。
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/5.jpg" width="400" >
 
 
 ------
@@ -35,7 +35,7 @@
 
 采用EC11旋转编码器作为人机交互输入设备。用户旋转旋钮可切换OLED菜单页面，实现简单直观的菜单操作。
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/6.jpg" width="400" >
 
 ------
 
@@ -45,11 +45,11 @@
 
 - 当旋转编码器连续10秒无操作时，系统自动关闭OLED显示，仅保持RTC计时、MPU6050采集及蓝牙通信等后台功能运行。
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/7.jpg" width="400" >
 
 - 当再次旋转旋转编码器时，OLED立即点亮，并恢复至主界面显示.
 
-<img src="images/2D_PCB1_2026-07-10.png" width="500" >
+<img src="images/8.jpg" width="400" >
 
 使得系统具有较好的交互性和低功耗性能，在保证正常工作的同时有效降低了整机功耗。
 
