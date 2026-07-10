@@ -18,9 +18,8 @@
 
 利用MPU6050三轴加速度传感器采集人体运动数据，通过步态检测算法对加速度信号进行滤波、动态阈值判断及峰值检测，实现步数统计。统计结果实时更新，并显示在OLED屏幕上。
 
-<img src="images/3.jpg" width="400" >
+<img src="images/3.jpg" width="400" >         <img src="images/4.jpg" width="390" >
 
-<img src="images/4.jpg" width="400" >
 
 ## 4. 蓝牙数据传输功能
 
